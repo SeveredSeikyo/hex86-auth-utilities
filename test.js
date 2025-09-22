@@ -3,6 +3,7 @@ import { uuid, jwtSign, jwtVerify, hashPwd, comparePwd } from "./index.js";
 
 const runTests = async () => {
   try {
+    console.log("Started Workflow")
     console.log("🔍 Running tests...");
 
     // Test 1: UUID
